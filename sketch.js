@@ -36,7 +36,6 @@ function setup() {
 	badGroup = new Group;
 
 	cap.setCollider("obb", cap.x -100, cap.y-100, 75, 100);
-    cap.debug = true;
 }
 
 
