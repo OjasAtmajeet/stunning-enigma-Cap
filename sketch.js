@@ -72,6 +72,9 @@ function draw() {
 		
 	}
 	if (gameState === 2) {
+		textSize(50);
+		fill(0);
+		text("PRESS SPACE TO RESTART", 400, displayHeight / 2-300);
 		coin1Group.setLifetimeEach(-1);
 		coin2Group.lifetime = (-1);
 		badGroup.lifetime = (-1);
